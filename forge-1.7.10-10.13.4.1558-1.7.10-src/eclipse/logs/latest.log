@@ -1,0 +1,42 @@
+[15:38:05] [main/INFO]: Setting user: Player756
+[15:38:06] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:38:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Unknown Sweet Potato Mod
+[15:38:14] [Sound Library Loader/INFO]: Sound engine started
+[15:38:15] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:38:15] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:38:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Unknown Sweet Potato Mod
+[15:38:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:38:16] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:38:17] [Sound Library Loader/INFO]: Sound engine started
+[15:41:51] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[15:41:51] [Server thread/INFO]: Generating keypair
+[15:41:51] [Server thread/INFO]: Converting map!
+[15:41:51] [Server thread/INFO]: Scanning folders...
+[15:41:51] [Server thread/INFO]: Total conversion count is 0
+[15:41:51] [Server thread/WARN]: Unable to find spawn biome
+[15:41:51] [Server thread/INFO]: Preparing start region for level 0
+[15:41:52] [Server thread/INFO]: Preparing spawn area: 9%
+[15:41:53] [Server thread/INFO]: Preparing spawn area: 24%
+[15:41:54] [Server thread/INFO]: Preparing spawn area: 41%
+[15:41:55] [Server thread/INFO]: Preparing spawn area: 61%
+[15:41:56] [Server thread/INFO]: Preparing spawn area: 86%
+[15:41:57] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:41:58] [Server thread/INFO]: Player756[local:E:3728dd0b] logged in with entity id 49 at (-33.5, 68.0, -26.5)
+[15:41:58] [Server thread/INFO]: Player756 joined the game
+[15:41:58] [Server thread/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
+[15:42:00] [Server thread/INFO]: Player756 has just earned the achievement [Taking Inventory]
+[15:42:00] [Client thread/INFO]: [CHAT] Player756 has just earned the achievement [Taking Inventory]
+[15:42:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2110ms behind, skipping 42 tick(s)
+[15:42:06] [Client thread/INFO]: Warning: Clientside chunk ticking took 302 ms
+[15:42:07] [Client thread/INFO]: Warning: Clientside chunk ticking took 236 ms
+[15:42:07] [Server thread/INFO]: Saving and pausing game...
+[15:42:07] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Overworld
+[15:42:07] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Nether
+[15:42:07] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/The End
+[15:42:08] [Server thread/INFO]: Stopping server
+[15:42:08] [Server thread/INFO]: Saving players
+[15:42:08] [Server thread/INFO]: Saving worlds
+[15:42:08] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Overworld
+[15:42:08] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Nether
+[15:42:08] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/The End
+[15:42:12] [Client thread/INFO]: Stopping!

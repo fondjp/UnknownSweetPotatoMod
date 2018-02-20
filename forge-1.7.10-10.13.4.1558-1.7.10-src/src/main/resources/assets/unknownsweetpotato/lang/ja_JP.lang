@@ -1,0 +1,12 @@
+item.magic_sugar.name=魔法の粉
+item.sweet_potato.name=サツマイモ
+item.steamed_sweet_potato.name=ふかしたサツマイモ
+item.anno_sweet_potato.name=安納芋
+item.unknown_sweet_potato.name=Unknown芋
+item.anno_pickaxe.name=安納ツルハシ
+item.anno_axe.name=安納オノ
+item.anno_shovel.name=安納シャベル
+item.anno_hoe.name=安納クワ
+item.anno_sword.name=安納剣
+tile.sweet_potato_block.name=サツマイモブロック
+tile.anno_block.name=安納ブロック
