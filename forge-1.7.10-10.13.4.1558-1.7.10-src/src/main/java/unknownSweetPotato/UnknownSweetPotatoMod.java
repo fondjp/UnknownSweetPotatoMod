@@ -2,9 +2,11 @@ package unknownSweetPotato;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.VillagerRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -37,6 +39,11 @@ public class UnknownSweetPotatoMod {
 	public static ToolMaterial materialAnnoHoe = EnumHelper.addToolMaterial("materialAnnoHoe", 3, 2000, 10.0F, 4.0F, 15);
 	public static ToolMaterial materialAnnoSword = EnumHelper.addToolMaterial("materialAnnoSword", 3, 2000, 10.0F, 5.0F, 15);
 
+	public static EntityVillagerFondjp villagerFondjp;
+	public static int villagerFondjpProfession = 40;
+	@SidedProxy(clientSide = "unknownSweetPotato.ClientProxy")
+	public static CommonProxy proxy;
+
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		magic_sugar = new ItemMagicSugar("magic_sugar");
@@ -51,6 +58,7 @@ public class UnknownSweetPotatoMod {
 		anno_sword = new ItemAnnoSword("anno_sword", materialAnnoSword);
 		sweet_potato_block = new BlockSweetPotatoBlock("sweet_potato_block");
 		anno_block = new BlockAnnoBlock("anno_block");
+		villagerFondjp = new EntityVillagerFondjp();
 
 		GameRegistry.registerItem(magic_sugar, "magic_sugar");
 		GameRegistry.registerItem(sweet_potato, "sweet_potato");
@@ -64,6 +72,8 @@ public class UnknownSweetPotatoMod {
 		GameRegistry.registerItem(anno_sword, "anno_sword");
 		GameRegistry.registerBlock(sweet_potato_block, "sweet_potato_block");
 		GameRegistry.registerBlock(anno_block, "anno_block");
+		VillagerRegistry.instance().registerVillagerId(villagerFondjpProfession);
+		proxy.init();
 	}
 
 	@EventHandler
