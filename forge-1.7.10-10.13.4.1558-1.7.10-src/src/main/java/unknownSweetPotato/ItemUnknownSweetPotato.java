@@ -34,7 +34,6 @@ public class ItemUnknownSweetPotato extends ItemFood {
 		if (!world.isRemote) {
 			Random rand = new Random();
 			int genNum = rand.nextInt(1000) + 1; // 0.1％単位で事象を管理する
-
 			if (genNum <= 100) {
 				EntityTNTPrimed tnt = new EntityTNTPrimed(world, player.posX, player.posY + 10, player.posZ, player);
 				tnt.fuse = 30;
@@ -68,12 +67,12 @@ public class ItemUnknownSweetPotato extends ItemFood {
 					player.inventory.addItemStackToInventory(new ItemStack(Blocks.tnt, rand.nextInt(10) + 1));
 					break;
 				case 5:
-					Minecraft.getMinecraft().thePlayer.sendChatMessage("Art is an explotion!!!");
+					Minecraft.getMinecraft().thePlayer.sendChatMessage("I'm Lucky!!!");
 					player.inventory.addItemStackToInventory(new ItemStack(Items.golden_apple, rand.nextInt(10) + 1));
 					break;
 				}
 			} else if (genNum <= 560) {
-				Minecraft.getMinecraft().thePlayer.sendChatMessage("This Sweet Potato contains a POTION Lv01!!!");
+				Minecraft.getMinecraft().thePlayer.sendChatMessage("This Sweet Potato contains a Potion!!!");
 				int potionId[] = { 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
 				int duration; // second
 				int level = rand.nextInt(1);
@@ -108,6 +107,10 @@ public class ItemUnknownSweetPotato extends ItemFood {
 				}
 			} else if (genNum <= 710) {
 				// TODO ここで村人を自分の周り（X+2など）にスポーンさせたい。
+			} else if (genNum <= 760) {
+				player.setHealth(player.getMaxHealth());
+			} else if (genNum <= 810) {
+				player.setHealth((player.getHealth() * 0.1F));
 			} else if (genNum <= 1000) {
 				// 未定
 			}
