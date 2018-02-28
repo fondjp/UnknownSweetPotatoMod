@@ -1,6 +1,7 @@
 package unknownSweetPotato;
 
 import net.minecraft.item.ItemFood;
+import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
 
 public class ItemSteamedSweetPotato extends ItemFood {
@@ -14,6 +15,10 @@ public class ItemSteamedSweetPotato extends ItemFood {
 		this.setUnlocalizedName(unlocalizedName);
 		this.setTextureName("unknownsweetpotato:" + unlocalizedName);
 		this.effects = effects;
+	}
+
+	public int getMaxItemUseDuration(ItemStack stack) {
+		return 48;
 	}
 
 }

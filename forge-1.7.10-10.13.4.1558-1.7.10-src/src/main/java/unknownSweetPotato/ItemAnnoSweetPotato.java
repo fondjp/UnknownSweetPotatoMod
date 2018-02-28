@@ -1,12 +1,12 @@
 package unknownSweetPotato;
 
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 
 public class ItemAnnoSweetPotato extends ItemFood {
 
@@ -20,10 +20,12 @@ public class ItemAnnoSweetPotato extends ItemFood {
 		this.setTextureName("unknownsweetpotato:" + unlocalizedName);
 		this.effects = effects;
 	}
-	
+
 	@Override
+	@SideOnly(Side.CLIENT)
 	protected void onFoodEaten(ItemStack stack, World world, EntityPlayer player) {
-	    super.onFoodEaten(stack, world, player);
+		super.onFoodEaten(stack, world, player);
+		player.addPotionEffect(new PotionEffect(10, 20 * 5, 2)); // レベル３再生を100tick(≒5sec）
 	}
 
 }

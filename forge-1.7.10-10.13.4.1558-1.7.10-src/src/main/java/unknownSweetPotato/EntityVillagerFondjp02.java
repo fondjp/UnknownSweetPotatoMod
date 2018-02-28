@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.village.MerchantRecipe;
 import net.minecraft.village.MerchantRecipeList;
 
-public class EntityVillagerFondjp implements IVillageTradeHandler {
+public class EntityVillagerFondjp02 implements IVillageTradeHandler {
 
 	@Override
 	public void manipulateTradesForVillager(EntityVillager villager, MerchantRecipeList recipeList, Random random) {

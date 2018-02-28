@@ -11,7 +11,7 @@ public class Recipes {
 				new ItemStack(UnknownSweetPotatoMod.steamed_sweet_potato), 0.7f);
 
 		GameRegistry.addSmelting(UnknownSweetPotatoMod.anno_sweet_potato,
-				new ItemStack(UnknownSweetPotatoMod.unknown_sweet_potato), 1.0f);
+				new ItemStack(UnknownSweetPotatoMod.steamed_anno_sweet_potato), 1.0f);
 
 		GameRegistry.addShapelessRecipe(new ItemStack(UnknownSweetPotatoMod.sweet_potato),
 				Items.potato,
@@ -33,6 +33,13 @@ public class Recipes {
 				" Y ",
 				'X', Items.gunpowder,
 				'Y', Items.sugar);
+
+		GameRegistry.addRecipe(new ItemStack(UnknownSweetPotatoMod.unknown_sweet_potato),
+				"YYY",
+				"YXY",
+				"YYY",
+				'X', UnknownSweetPotatoMod.anno_sweet_potato,
+				'Y', UnknownSweetPotatoMod.magic_sugar);
 
 		GameRegistry.addRecipe(new ItemStack(UnknownSweetPotatoMod.anno_pickaxe),
 				"XXX",
@@ -59,13 +66,6 @@ public class Recipes {
 				"XX",
 				"Y ",
 				"Y ",
-				'X', Items.diamond,
-				'Y', UnknownSweetPotatoMod.anno_block);
-
-		GameRegistry.addRecipe(new ItemStack(UnknownSweetPotatoMod.anno_sword),
-				"X",
-				"X",
-				"Y",
 				'X', Items.diamond,
 				'Y', UnknownSweetPotatoMod.anno_block);
 
