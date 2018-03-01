@@ -1,6 +1,7 @@
 package unknownSweetPotato;
 
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
@@ -35,11 +36,12 @@ public class Recipes {
 				'Y', Items.sugar);
 
 		GameRegistry.addRecipe(new ItemStack(UnknownSweetPotatoMod.unknown_sweet_potato),
-				"YYY",
+				"ZYZ",
 				"YXY",
-				"YYY",
+				"ZYZ",
 				'X', UnknownSweetPotatoMod.anno_sweet_potato,
-				'Y', UnknownSweetPotatoMod.magic_sugar);
+				'Y', UnknownSweetPotatoMod.magic_sugar,
+				'Z', Blocks.chest);
 
 		GameRegistry.addRecipe(new ItemStack(UnknownSweetPotatoMod.anno_pickaxe),
 				"XXX",

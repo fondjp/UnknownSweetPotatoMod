@@ -48,7 +48,7 @@ public class UnknownSweetPotatoMod {
 			4.0F, 15);
 	public static ToolMaterial materialAnnoHoe = EnumHelper.addToolMaterial("materialAnnoHoe", 3, 2000, 10.0F, 4.0F,
 			15);
-	public static ToolMaterial materialAnnoSword = EnumHelper.addToolMaterial("materialAnnoSword", 3, 2000, 10.0F, 5.0F,
+	public static ToolMaterial materialAnnoSword = EnumHelper.addToolMaterial("materialAnnoSword", 3, 2000, 10.0F, 6.0F,
 			15);
 
 	public static EntityVillagerFondjp01 villagerFondjp01;
@@ -70,6 +70,7 @@ public class UnknownSweetPotatoMod {
 	public static Achievement achievementUSPLucky;
 	public static Achievement achievementUSPObsidian;
 	public static Achievement achievementUSPEncounter;
+	public static Achievement achievementUSPEncounterComplete;
 	public static Achievement achievementUSPVeryLucky;
 
 	@EventHandler
@@ -78,7 +79,7 @@ public class UnknownSweetPotatoMod {
 		sweet_potato = new ItemSweetPotato("sweet_potato", 2, 1.0F, false);
 		steamed_sweet_potato = new ItemSteamedSweetPotato("steamed_sweet_potato", 7, 1.0F, true);
 		anno_sweet_potato = new ItemAnnoSweetPotato("anno_sweet_potato", 5, 1.0F, false);
-		steamed_anno_sweet_potato = new ItemSteamedAnnoSweetPotato("anno_sweet_potato", 9, 1.0F, true);
+		steamed_anno_sweet_potato = new ItemSteamedAnnoSweetPotato("steamed_anno_sweet_potato", 9, 1.0F, true);
 		unknown_sweet_potato = new ItemUnknownSweetPotato("unknown_sweet_potato", 7, 1.0F, false);
 		anno_pickaxe = new ItemAnnoPickaxe("anno_pickaxe", materialAnnoPickaxe);
 		anno_axe = new ItemAnnoAxe("anno_axe", materialAnnoAxe);
@@ -105,6 +106,8 @@ public class UnknownSweetPotatoMod {
 		GameRegistry.registerBlock(anno_block, "anno_block");
 		VillagerRegistry.instance().registerVillagerId(villagerFondjp01Profession);
 		VillagerRegistry.instance().registerVillagerId(villagerFondjp02Profession);
+		VillagerRegistry.instance().registerVillageTradeHandler(villagerFondjp01Profession, villagerFondjp01);
+		VillagerRegistry.instance().registerVillageTradeHandler(villagerFondjp02Profession, villagerFondjp02);
 
 		proxy.init();
 	}
@@ -138,14 +141,16 @@ public class UnknownSweetPotatoMod {
 				achievementUSPAte).registerStat();
 		achievementUSPEncounter = new Achievement("achievement.USPEncounter", "USPEncounter", 1, 6, Items.emerald,
 				achievementUSPAte).registerStat();
-		achievementUSPVeryLucky = new Achievement("achievement.USPVeryLucky", "USPVeryLucky", 1, 7, new ItemStack(Items.golden_apple, 1),
-				achievementUSPAte).setSpecial().registerStat();
+		achievementUSPEncounterComplete = new Achievement("achievement.USPEncounterComplete", "USPEncounterComplete", 3,
+				6, Blocks.emerald_block, achievementUSPEncounter).registerStat();
+		achievementUSPVeryLucky = new Achievement("achievement.USPVeryLucky", "USPVeryLucky", 2, 7,
+				new ItemStack(Items.golden_apple, 1), achievementUSPAte).setSpecial().registerStat();
 
 		AchievementPage.registerAchievementPage(new AchievementPage("Unknown Sweet Potato",
 				new Achievement[] { achievementPotato, achievementSweetPotato, achievementSteamedSweetPotato,
 						achievementAnnoSweetPotato, achievementSteamedAnnoSweetPotato, achievementUnknownSweetPotato,
-						achievementSweetPotatoBlock, achievementAnnoBlock, achievementUSPAte, achievementUSPLucky, achievementUSPObsidian,
-						achievementUSPEncounter, achievementUSPVeryLucky }));
+						achievementSweetPotatoBlock, achievementAnnoBlock, achievementUSPAte, achievementUSPLucky,
+						achievementUSPObsidian, achievementUSPEncounter, achievementUSPEncounterComplete ,achievementUSPVeryLucky }));
 
 		FMLCommonHandler.instance().bus().register(new AchievementOnEvent());
 	}

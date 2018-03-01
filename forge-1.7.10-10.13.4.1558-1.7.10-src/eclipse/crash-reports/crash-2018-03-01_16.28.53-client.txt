@@ -1,0 +1,101 @@
+---- Minecraft Crash Report ----
+// I blame Dinnerbone.
+
+Time: 18/03/01 16:28
+Description: Rendering screen
+
+java.lang.NullPointerException: Rendering screen
+	at net.minecraft.client.gui.GuiScreen.renderToolTip(GuiScreen.java:124)
+	at net.minecraft.client.gui.GuiMerchant.drawScreen(GuiMerchant.java:183)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1137)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1067)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:962)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.client.gui.GuiScreen.renderToolTip(GuiScreen.java:124)
+	at net.minecraft.client.gui.GuiMerchant.drawScreen(GuiMerchant.java:183)
+
+-- Screen render details --
+Details:
+	Screen name: net.minecraft.client.gui.GuiMerchant
+	Mouse location: Scaled: (169, 74). Absolute: (339, 330)
+	Screen size: Scaled: (427, 240). Absolute: (854, 480). Scale factor of 2
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Player730'/422, l='MpServer', x=-32.30, y=62.62, z=-41.65]]
+	Chunk stats: MultiplayerChunkCache: 495, 495
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-26,64,-28), Chunk: (at 6,4,4 in -2,-2; contains blocks -32,0,-32 to -17,255,-17), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 133688 game time, 8049 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 145 total; [EntityCreeper['クリーパー'/257, l='MpServer', x=6.50, y=12.00, z=-106.50], EntityZombie['ゾンビ'/258, l='MpServer', x=11.50, y=45.08, z=-103.31], EntityEnderman['エンダーマン'/259, l='MpServer', x=12.67, y=14.00, z=-92.60], EntityZombie['ゾンビ'/260, l='MpServer', x=1.78, y=17.00, z=-82.47], EntityZombie['ゾンビ'/261, l='MpServer', x=5.27, y=17.41, z=-86.70], EntityZombie['ゾンビ'/262, l='MpServer', x=5.59, y=17.00, z=-85.94], EntityCreeper['クリーパー'/263, l='MpServer', x=15.50, y=17.00, z=-90.50], EntityZombie['ゾンビ'/264, l='MpServer', x=15.50, y=17.00, z=-92.50], EntityZombie['ゾンビ'/265, l='MpServer', x=11.88, y=14.00, z=-92.56], EntityZombie['ゾンビ'/266, l='MpServer', x=14.06, y=18.00, z=-94.50], EntityCreeper['クリーパー'/267, l='MpServer', x=11.50, y=43.00, z=-90.50], EntityCreeper['クリーパー'/268, l='MpServer', x=8.34, y=43.00, z=-91.66], EntitySquid['イカ'/269, l='MpServer', x=11.91, y=60.41, z=-85.47], EntitySquid['イカ'/270, l='MpServer', x=-2.13, y=60.34, z=-79.91], EntityCreeper['クリーパー'/271, l='MpServer', x=0.50, y=16.00, z=-79.50], EntitySquid['イカ'/272, l='MpServer', x=8.41, y=60.31, z=-74.63], EntitySquid['イカ'/273, l='MpServer', x=6.63, y=56.34, z=-67.03], EntitySquid['イカ'/274, l='MpServer', x=9.03, y=56.00, z=-81.50], EntitySquid['イカ'/275, l='MpServer', x=6.56, y=59.31, z=-75.63], EntitySquid['イカ'/276, l='MpServer', x=5.47, y=56.81, z=-74.19], EntitySquid['イカ'/277, l='MpServer', x=7.44, y=55.38, z=-69.63], EntitySquid['イカ'/278, l='MpServer', x=6.50, y=59.84, z=-67.13], EntitySquid['イカ'/279, l='MpServer', x=9.03, y=47.38, z=-38.88], EntityCreeper['クリーパー'/280, l='MpServer', x=5.50, y=24.00, z=-17.50], EntitySquid['イカ'/281, l='MpServer', x=6.06, y=59.84, z=6.56], EntitySquid['イカ'/282, l='MpServer', x=16.47, y=57.31, z=10.16], EntitySkeleton['スケルトン'/299, l='MpServer', x=18.50, y=37.00, z=-102.50], EntitySkeleton['スケルトン'/300, l='MpServer', x=27.50, y=19.00, z=-81.50], EntitySkeleton['スケルトン'/301, l='MpServer', x=20.50, y=21.00, z=-92.50], EntitySkeleton['スケルトン'/302, l='MpServer', x=23.50, y=21.00, z=-91.50], EntityZombie['ゾンビ'/303, l='MpServer', x=17.03, y=17.00, z=-88.53], EntitySkeleton['スケルトン'/304, l='MpServer', x=31.38, y=39.00, z=-89.00], EntitySquid['イカ'/305, l='MpServer', x=23.78, y=60.00, z=-84.84], EntitySquid['イカ'/306, l='MpServer', x=20.50, y=58.00, z=-78.66], EntitySquid['イカ'/307, l='MpServer', x=27.81, y=55.38, z=-26.25], EntitySquid['イカ'/308, l='MpServer', x=29.22, y=51.06, z=-29.13], EntitySquid['イカ'/309, l='MpServer', x=14.84, y=53.31, z=-27.69], EntitySquid['イカ'/310, l='MpServer', x=24.50, y=51.84, z=-20.16], EntitySquid['イカ'/311, l='MpServer', x=20.66, y=52.22, z=-13.75], EntitySquid['イカ'/312, l='MpServer', x=28.75, y=52.06, z=-5.59], EntitySquid['イカ'/314, l='MpServer', x=26.19, y=54.34, z=-4.81], EntitySquid['イカ'/315, l='MpServer', x=29.28, y=55.16, z=-7.88], EntityChicken['ニワトリ'/60, l='MpServer', x=-98.16, y=67.00, z=-90.53], EntitySquid['イカ'/317, l='MpServer', x=23.31, y=53.38, z=-12.88], EntityChicken['ニワトリ'/61, l='MpServer', x=-101.47, y=67.00, z=-91.53], EntitySquid['イカ'/318, l='MpServer', x=30.97, y=46.30, z=-14.16], EntityChicken['ニワトリ'/62, l='MpServer', x=-97.47, y=64.00, z=-79.56], EntitySquid['イカ'/319, l='MpServer', x=19.13, y=57.38, z=2.72], EntityCreeper['クリーパー'/63, l='MpServer', x=-103.53, y=25.00, z=-38.66], EntitySquid['イカ'/320, l='MpServer', x=25.53, y=59.03, z=8.25], EntitySkeleton['スケルトン'/64, l='MpServer', x=-103.50, y=25.00, z=-37.50], EntitySquid['イカ'/321, l='MpServer', x=16.91, y=59.25, z=4.72], EntityZombie['ゾンビ'/65, l='MpServer', x=-108.50, y=35.00, z=-27.50], EntitySquid['イカ'/322, l='MpServer', x=18.97, y=60.41, z=4.81], EntitySquid['イカ'/66, l='MpServer', x=-98.38, y=55.16, z=-9.81], EntitySquid['イカ'/323, l='MpServer', x=26.75, y=58.84, z=-0.66], EntitySquid['イカ'/324, l='MpServer', x=20.86, y=57.34, z=-2.40], EntitySquid['イカ'/325, l='MpServer', x=19.66, y=57.16, z=7.78], EntitySquid['イカ'/326, l='MpServer', x=18.59, y=57.41, z=13.06], EntitySquid['イカ'/327, l='MpServer', x=23.50, y=56.22, z=-0.19], EntitySquid['イカ'/328, l='MpServer', x=11.81, y=59.34, z=11.47], EntityZombie['ゾンビ'/82, l='MpServer', x=-80.71, y=12.00, z=-120.49], EntityChicken['ニワトリ'/83, l='MpServer', x=-87.34, y=72.00, z=-113.44], EntityChicken['ニワトリ'/84, l='MpServer', x=-92.56, y=69.00, z=-89.53], EntitySlime['スライム'/341, l='MpServer', x=33.31, y=17.00, z=-94.69], EntitySquid['イカ'/85, l='MpServer', x=-92.66, y=57.31, z=-24.09], EntitySlime['スライム'/342, l='MpServer', x=35.31, y=19.57, z=-84.61], EntitySquid['イカ'/86, l='MpServer', x=-88.84, y=57.28, z=-16.50], EntitySkeleton['スケルトン'/343, l='MpServer', x=33.44, y=40.00, z=-87.91], EntitySquid['イカ'/87, l='MpServer', x=-81.53, y=57.66, z=-13.13], EntitySkeleton['スケルトン'/344, l='MpServer', x=43.13, y=12.00, z=-17.38], EntitySquid['イカ'/88, l='MpServer', x=-83.53, y=58.38, z=-12.47], EntityBat['コウモリ'/345, l='MpServer', x=39.63, y=11.27, z=-18.03], EntitySquid['イカ'/89, l='MpServer', x=-88.19, y=55.09, z=-11.94], EntityBat['コウモリ'/346, l='MpServer', x=44.91, y=24.04, z=-20.59], EntitySquid['イカ'/90, l='MpServer', x=-91.22, y=57.31, z=-4.97], EntityCreeper['クリーパー'/347, l='MpServer', x=36.47, y=12.00, z=-14.97], EntitySquid['イカ'/91, l='MpServer', x=-83.06, y=56.06, z=-9.75], EntitySquid['イカ'/92, l='MpServer', x=-93.88, y=58.09, z=-4.28], EntitySquid['イカ'/93, l='MpServer', x=-94.16, y=58.38, z=-7.84], EntitySquid['イカ'/94, l='MpServer', x=-83.22, y=56.38, z=-13.19], EntityZombie['ゾンビ'/109, l='MpServer', x=-76.50, y=13.00, z=-117.50], EntitySkeleton['スケルトン'/110, l='MpServer', x=-65.50, y=57.00, z=-113.50], EntityBat['コウモリ'/111, l='MpServer', x=-58.66, y=19.00, z=-88.25], EntityZombie['ゾンビ'/112, l='MpServer', x=-71.50, y=62.00, z=-110.50], EntityBat['コウモリ'/368, l='MpServer', x=44.25, y=22.02, z=-12.38], EntityChicken['ニワトリ'/113, l='MpServer', x=-72.19, y=72.00, z=-109.72], EntityBat['コウモリ'/369, l='MpServer', x=48.00, y=23.57, z=-19.53], EntityVillager['村人'/114, l='MpServer', x=-63.44, y=72.00, z=-102.00], EntityChicken['ニワトリ'/115, l='MpServer', x=-79.63, y=69.00, z=-81.56], EntitySkeleton['スケルトン'/116, l='MpServer', x=-73.50, y=35.00, z=-51.50], EntitySquid['イカ'/117, l='MpServer', x=-64.91, y=57.38, z=-0.06], EntitySquid['イカ'/118, l='MpServer', x=-64.25, y=59.31, z=6.34], EntitySquid['イカ'/119, l='MpServer', x=-70.41, y=58.97, z=6.78], EntitySquid['イカ'/120, l='MpServer', x=-59.19, y=60.19, z=1.41], EntitySquid['イカ'/121, l='MpServer', x=-67.69, y=58.34, z=8.50], EntitySquid['イカ'/122, l='MpServer', x=-70.38, y=58.75, z=2.91], EntitySkeleton['スケルトン'/137, l='MpServer', x=-61.50, y=57.00, z=-113.50], EntitySkeleton['スケルトン'/138, l='MpServer', x=-60.50, y=54.00, z=-111.97], EntityCreeper['クリーパー'/139, l='MpServer', x=-59.50, y=21.00, z=-84.50], EntityBat['コウモリ'/140, l='MpServer', x=-58.50, y=44.10, z=-91.03], EntityItem['item.item.rottenFlesh'/141, l='MpServer', x=-49.81, y=65.13, z=-90.19], EntitySkeleton['スケルトン'/142, l='MpServer', x=-50.34, y=43.00, z=-60.25], EntitySkeleton['スケルトン'/143, l='MpServer', x=-55.22, y=39.00, z=-28.44], EntitySquid['イカ'/144, l='MpServer', x=-57.25, y=58.68, z=0.79], EntitySquid['イカ'/145, l='MpServer', x=-55.72, y=56.06, z=-1.06], EntitySquid['イカ'/146, l='MpServer', x=-58.13, y=56.78, z=5.38], EntitySquid['イカ'/147, l='MpServer', x=-63.44, y=58.28, z=11.50], EntitySquid['イカ'/148, l='MpServer', x=-57.94, y=60.38, z=1.91], EntitySquid['イカ'/149, l='MpServer', x=-63.16, y=55.38, z=9.22], EntityBat['コウモリ'/172, l='MpServer', x=-37.00, y=45.67, z=-120.59], EntitySkeleton['スケルトン'/173, l='MpServer', x=-45.22, y=42.00, z=-64.38], EntityCreeper['クリーパー'/174, l='MpServer', x=-33.31, y=38.00, z=-56.63], EntitySpider['クモ'/175, l='MpServer', x=-36.53, y=40.00, z=-62.00], EntityVillager['村人'/176, l='MpServer', x=-33.30, y=60.48, z=-42.30], EntityVillager['村人'/177, l='MpServer', x=-34.41, y=61.00, z=-41.31], EntityClientPlayerMP['Player730'/422, l='MpServer', x=-32.30, y=62.62, z=-41.65], EntityChicken['ニワトリ'/192, l='MpServer', x=-20.59, y=62.45, z=-120.56], EntitySlime['スライム'/193, l='MpServer', x=-16.31, y=37.00, z=-105.31], EntitySlime['スライム'/194, l='MpServer', x=-25.28, y=39.00, z=-109.31], EntityChicken['ニワトリ'/195, l='MpServer', x=-18.53, y=66.00, z=-90.56], EntityVillager['村人'/196, l='MpServer', x=-26.13, y=66.00, z=-84.50], EntityZombie['ゾンビ'/197, l='MpServer', x=-26.63, y=33.00, z=-35.03], EntityVillager['村人'/198, l='MpServer', x=-29.21, y=61.00, z=-38.38], EntityVillager['村人'/199, l='MpServer', x=-29.05, y=61.11, z=-39.20], EntitySquid['イカ'/201, l='MpServer', x=-14.91, y=42.28, z=20.25], EntitySquid['イカ'/202, l='MpServer', x=-22.63, y=46.40, z=24.38], EntitySquid['イカ'/204, l='MpServer', x=-15.75, y=46.34, z=23.75], EntitySquid['イカ'/205, l='MpServer', x=-26.84, y=46.00, z=15.13], EntitySquid['イカ'/206, l='MpServer', x=-20.09, y=41.38, z=18.56], EntitySquid['イカ'/207, l='MpServer', x=-18.78, y=46.06, z=20.34], EntityWitch['ウィッチ'/239, l='MpServer', x=-4.50, y=41.00, z=-113.50], EntityBat['コウモリ'/240, l='MpServer', x=-14.25, y=34.39, z=-120.94], EntitySkeleton['スケルトン'/241, l='MpServer', x=-15.38, y=51.00, z=-120.69], EntitySkeleton['スケルトン'/242, l='MpServer', x=-9.50, y=49.00, z=-113.50], EntitySkeleton['スケルトン'/243, l='MpServer', x=-9.50, y=49.00, z=-115.50], EntityChicken['ニワトリ'/244, l='MpServer', x=-4.47, y=67.00, z=-109.53], EntityCreeper['クリーパー'/245, l='MpServer', x=-1.50, y=14.00, z=-88.69], EntitySlime['スライム'/246, l='MpServer', x=-6.78, y=22.00, z=-83.22], EntityCreeper['クリーパー'/247, l='MpServer', x=-0.50, y=21.00, z=-85.50], EntityChicken['ニワトリ'/248, l='MpServer', x=-15.66, y=64.00, z=-92.47], EntityChicken['ニワトリ'/249, l='MpServer', x=-10.68, y=64.00, z=-82.47], EntitySquid['イカ'/251, l='MpServer', x=-13.06, y=47.31, z=16.66], EntitySquid['イカ'/252, l='MpServer', x=-12.44, y=46.25, z=20.63], EntitySquid['イカ'/253, l='MpServer', x=-14.72, y=40.13, z=14.34]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:415)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2566)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:984)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Mac OS X (x86_64) version 10.12.6
+	Java Version: 1.8.0_131, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 784774624 bytes (748 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 72, allocated: 12, tallocated: 94
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1558} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UCHIJAAAA	unknownsweetpotatomod{1.0.0} [Unknown Sweet Potato Mod] (bin) 
+	GL info: ' Vendor: 'Intel Inc.' Version: '2.1 INTEL-10.25.19' Renderer: 'Intel(R) Iris(TM) Graphics 550'
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: Intel(R) Iris(TM) Graphics 550 GL version 2.1 INTEL-10.25.19, Intel Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because ARB_framebuffer_object is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: 日本語 (日本)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

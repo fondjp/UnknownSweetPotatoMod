@@ -19,6 +19,8 @@ import net.minecraft.world.World;
 public class ItemUnknownSweetPotato extends ItemFood {
 
 	private PotionEffect[] effects;
+	int villagerCounter01 = 0;
+	int villagerCounter02 = 0;
 
 	public ItemUnknownSweetPotato(String unlocalizedName, int p_i45339_1_, float p_i45339_2_, boolean p_i45339_3_,
 			PotionEffect... effects) {
@@ -32,7 +34,10 @@ public class ItemUnknownSweetPotato extends ItemFood {
 	@SideOnly(Side.CLIENT)
 	public ItemStack onEaten(ItemStack stack, World world, EntityPlayer player) {
 		super.onEaten(stack, world, player);
+
 		if (!world.isRemote) {
+
+			player.addStat(UnknownSweetPotatoMod.achievementUSPAte, 1);
 			Random rand = new Random();
 			int genNum = rand.nextInt(1000) + 1; // 0.1％単位で事象を管理する
 			if (genNum <= 240) {
@@ -148,29 +153,29 @@ public class ItemUnknownSweetPotato extends ItemFood {
 			} else if (genNum <= 980) {
 				Minecraft.getMinecraft().thePlayer.sendChatMessage("WHO ARE YOU!!!");
 				EntityVillager fondjp01 = new EntityVillager(world, 401);
-				fondjp01.setPosition(player.posX + 4, player.posY, player.posZ);
+				fondjp01.setPosition(player.posX - 4, player.posY, player.posZ);
 				world.spawnEntityInWorld(fondjp01);
 				player.addStat(UnknownSweetPotatoMod.achievementUSPEncounter, 1);
+				villagerCounter01 = 1;
 			} else if (genNum <= 995) {
 				Minecraft.getMinecraft().thePlayer.sendChatMessage("WHO ARE YOU???");
-				EntityVillager fondjp02 = new EntityVillager(world, 401);
-				fondjp02.setPosition(player.posX + 4, player.posY, player.posZ);
+				EntityVillager fondjp02 = new EntityVillager(world, 402);
+				fondjp02.setPosition(player.posX - 4, player.posY, player.posZ);
 				world.spawnEntityInWorld(fondjp02);
 				player.addStat(UnknownSweetPotatoMod.achievementUSPEncounter, 1);
+				villagerCounter02 = 1;
 			} else if (genNum <= 1000) {
 				player.addPotionEffect(new PotionEffect(22, 20 * 3600, 19));
 				player.addStat(UnknownSweetPotatoMod.achievementUSPVeryLucky, 1);
 			}
 
-		}
+			if (villagerCounter01 + villagerCounter02 == 2) {
+				player.addStat(UnknownSweetPotatoMod.achievementUSPEncounterComplete, 1);
+			}
 
-		player.addStat(UnknownSweetPotatoMod.achievementUSPAte, 1);
+		}
 
 		return stack;
 	}
 
-	@Override
-	protected void onFoodEaten(ItemStack stack, World world, EntityPlayer player) {
-		super.onFoodEaten(stack, world, player);
-	}
 }
