@@ -10,6 +10,7 @@ public class BlockAnnoBlock extends Block {
 		this.setCreativeTab(UnknownSweetPotatoMod.tabSweetPotatoMod);
 		this.setBlockName(unlocalizedName);
 		this.setBlockTextureName("unknownsweetpotato:" + unlocalizedName);
+		setLightLevel(1.0F);
 	}
 
 }
