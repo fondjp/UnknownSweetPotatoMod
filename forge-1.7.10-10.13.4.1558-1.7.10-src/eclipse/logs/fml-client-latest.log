@@ -165,3 +165,487 @@ Details:
 [15:54:24] [Client thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
 [15:54:24] [Client thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
 [15:54:24] [Client thread/DEBUG] [FML/]: The mod container akka-actor_2.11-2.3.3.jar appears to be missing an mcmod.info file
+[15:54:25] [Client thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[15:54:25] [Client thread/DEBUG] [FML/]: The mod container config-1.2.1.jar appears to be missing an mcmod.info file
+[15:54:25] [Client thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[15:54:25] [Client thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[15:54:25] [Client thread/DEBUG] [FML/]: Examining file scala-compiler-2.11.1.jar for potential mods
+[15:54:25] [Client thread/DEBUG] [FML/]: The mod container scala-compiler-2.11.1.jar appears to be missing an mcmod.info file
+[15:54:27] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[15:54:27] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[15:54:27] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[15:54:27] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[15:54:27] [Client thread/DEBUG] [FML/]: Examining file scala-library-2.11.1.jar for potential mods
+[15:54:27] [Client thread/DEBUG] [FML/]: The mod container scala-library-2.11.1.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file realms-1.3.5.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container realms-1.3.5.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file vecmath-1.3.1.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container vecmath-1.3.1.jar appears to be missing an mcmod.info file
+[15:54:28] [Client thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[15:54:28] [Client thread/DEBUG] [FML/]: The mod container trove4j-3.0.3.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file netty-all-4.0.10.Final.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container netty-all-4.0.10.Final.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.3.2.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file authlib-1.5.16.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container authlib-1.5.16.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file lwjgl-2.9.1.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container lwjgl-2.9.1.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.1.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.1.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file twitch-5.16.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container twitch-5.16.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file scala-actors-2.11.0.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container scala-actors-2.11.0.jar appears to be missing an mcmod.info file
+[15:54:29] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[15:54:29] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-linux.jar for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-linux.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-windows.jar for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-windows.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-osx.jar for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-osx.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-windows-32.jar for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-windows-32.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-windows-64.jar for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-windows-64.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-osx.jar for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-osx.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-32.jar for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-32.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-64.jar for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-64.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-windows.jar for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-windows.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-linux.jar for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-linux.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-osx.jar for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-osx.jar appears to be missing an mcmod.info file
+[15:54:30] [Client thread/DEBUG] [FML/]: Examining directory start for potential mods
+[15:54:30] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[15:54:30] [Client thread/TRACE] [FML/]: Recursing into package net
+[15:54:30] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[15:54:30] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[15:54:30] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
+[15:54:30] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
+[15:54:30] [Client thread/TRACE] [FML/]: Received a system property request ''
+[15:54:30] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[15:54:30] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[15:54:30] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar [en_US, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW, en_US]
+[15:54:30] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar [en_US, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW, en_US]
+[15:54:30] [Client thread/DEBUG] [unknownsweetpotatomod/]: Enabling mod unknownsweetpotatomod
+[15:54:30] [Client thread/DEBUG] [FML/]: Injecting found translation assets for lang en_US at assets/unknownsweetpotato/lang/en_US.lang into language system
+[15:54:30] [Client thread/DEBUG] [FML/]: Injecting found translation assets for lang ja_JP at assets/unknownsweetpotato/lang/ja_JP.lang into language system
+[15:54:30] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[15:54:30] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[15:54:30] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[15:54:30] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[15:54:30] [Client thread/DEBUG] [FML/]: Mod sorting data
+[15:54:30] [Client thread/DEBUG] [FML/]: 	unknownsweetpotatomod(Unknown Sweet Potato Mod:1.0.0): bin ()
+[15:54:30] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[15:54:30] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.002s
+[15:54:30] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[15:54:30] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[15:54:30] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[15:54:30] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[15:54:30] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, unknownsweetpotatomod] at CLIENT
+[15:54:30] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, unknownsweetpotatomod] at SERVER
+[15:54:30] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.300s
+[15:54:30] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[15:54:30] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[15:54:30] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[15:54:30] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1558)
+[15:54:30] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.007s
+[15:54:30] [Client thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLConstructionEvent to mod unknownsweetpotatomod
+[15:54:30] [Client thread/TRACE] [FML/unknownsweetpotatomod]: Mod unknownsweetpotatomod is using network checker : Accepting version 1.0.0
+[15:54:30] [Client thread/TRACE] [FML/unknownsweetpotatomod]: Testing mod unknownsweetpotatomod to verify it accepts its own version in a remote connection
+[15:54:30] [Client thread/TRACE] [FML/unknownsweetpotatomod]: The mod unknownsweetpotatomod accepts its own version (1.0.0)
+[15:54:30] [Client thread/DEBUG] [FML/unknownsweetpotatomod]: Attempting to inject @SidedProxy classes into unknownsweetpotatomod
+[15:54:30] [Client thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLConstructionEvent to mod unknownsweetpotatomod
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Unknown Sweet Potato Mod took 0.050s
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 0.359s
+[15:54:30] [Client thread/DEBUG] [FML/]: Mod signature data
+[15:54:30] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[15:54:30] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[15:54:30] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[15:54:30] [Client thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	7.10.99.99)	forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar
+[15:54:30] [Client thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	10.13.4.1558)	forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar
+[15:54:30] [Client thread/DEBUG] [FML/]: 		unknownsweetpotatomod	(Unknown Sweet Potato Mod	1.0.0)	bin
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.005s
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.007s
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.007s
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Unknown Sweet Potato Mod took 0.002s
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.038s
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.039s
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.060s
+[15:54:30] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[15:54:30] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[15:54:30] [Client thread/DEBUG] [Unknown Sweet Potato Mod/]: Mod Unknown Sweet Potato Mod is missing a pack.mcmeta file, substituting a dummy one
+[15:54:30] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[15:54:30] [Client thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[15:54:30] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[15:54:30] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[15:54:30] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[15:54:30] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[15:54:30] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[15:54:30] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[15:54:30] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[15:54:30] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[15:54:30] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.041s
+[15:54:30] [Client thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLPreInitializationEvent to mod unknownsweetpotatomod
+[15:54:30] [Client thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLPreInitializationEvent to mod unknownsweetpotatomod
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Unknown Sweet Potato Mod took 0.023s
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.065s
+[15:54:30] [Client thread/INFO] [FML/]: Applying holder lookups
+[15:54:30] [Client thread/INFO] [FML/]: Holder lookups applied
+[15:54:30] [Client thread/INFO] [FML/]: Injecting itemstacks
+[15:54:30] [Client thread/INFO] [FML/]: Itemstack injection complete
+[15:54:30] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.000s
+[15:54:31] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:54:31] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[15:54:31] [Thread-7/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[15:54:31] [Thread-7/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:54:31] [Thread-7/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[15:54:31] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:54:31] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 0.742s
+[15:54:31] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.005s
+[15:54:31] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.003s
+[15:54:31] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.010s
+[15:54:31] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.010s
+[15:54:31] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Render Manager took 0.145s
+[15:54:31] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[15:54:31] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.021s
+[15:54:31] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading GL properties took 0.001s
+[15:54:31] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Render Global instance took 0.050s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Building Blocks Texture took 0.012s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Anisotropy and Mipmaps took 0.000s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0.001s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.003s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Blocks Texture took 0.010s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0.000s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.002s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Items Texture took 0.006s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Viewport took 0.003s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 0.249s
+[15:54:32] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[15:54:32] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[15:54:32] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[15:54:32] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[15:54:32] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[15:54:32] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[15:54:32] [Client thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLInitializationEvent to mod unknownsweetpotatomod
+[15:54:32] [Client thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLInitializationEvent to mod unknownsweetpotatomod
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Unknown Sweet Potato Mod took 0.009s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.010s
+[15:54:32] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[15:54:32] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[15:54:32] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.003s
+[15:54:32] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[15:54:32] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[15:54:32] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.001s
+[15:54:32] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[15:54:32] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[15:54:32] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[15:54:32] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod unknownsweetpotatomod
+[15:54:32] [Client thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event IMCEvent to mod unknownsweetpotatomod
+[15:54:32] [Client thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event IMCEvent to mod unknownsweetpotatomod
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Unknown Sweet Potato Mod took 0.000s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.005s
+[15:54:32] [Client thread/INFO] [FML/]: Injecting itemstacks
+[15:54:32] [Client thread/INFO] [FML/]: Itemstack injection complete
+[15:54:32] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[15:54:32] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[15:54:32] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[15:54:32] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[15:54:32] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[15:54:32] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.089s
+[15:54:32] [Client thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLPostInitializationEvent to mod unknownsweetpotatomod
+[15:54:32] [Client thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLPostInitializationEvent to mod unknownsweetpotatomod
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Unknown Sweet Potato Mod took 0.001s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.090s
+[15:54:32] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[15:54:32] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[15:54:32] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[15:54:32] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[15:54:32] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[15:54:32] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[15:54:32] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
+[15:54:32] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[15:54:32] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[15:54:32] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[15:54:32] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[15:54:32] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[15:54:32] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[15:54:32] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[15:54:32] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[15:54:32] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[15:54:32] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[15:54:32] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
+[15:54:32] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.010s
+[15:54:32] [Client thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLLoadCompleteEvent to mod unknownsweetpotatomod
+[15:54:32] [Client thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLLoadCompleteEvent to mod unknownsweetpotatomod
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Unknown Sweet Potato Mod took 0.001s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.012s
+[15:54:32] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[15:54:32] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[15:54:32] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[15:54:32] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 4 mods
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.000s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.006s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.006s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Unknown Sweet Potato Mod took 0.001s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture Loading took 0.178s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0.165s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.051s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.070s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/blocks.png took 0.414s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii.png took 0.012s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightMap_1 took 0.000s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii_sga.png took 0.005s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture Loading took 0.088s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0.004s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.010s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.016s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/items.png took 0.113s
+[15:54:32] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 0.545s
+[15:54:32] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:54:32] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[15:54:32] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[15:54:32] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:54:32] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:54:32] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[15:54:32] [Thread-9/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[15:54:32] [Thread-9/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:54:32] [Thread-9/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[15:54:33] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 1.190s
+[15:54:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 1.191s
+[15:54:33] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 1.203s
+[15:54:33] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[15:54:33] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[15:54:33] [Client thread/DEBUG] [Unknown Sweet Potato Mod/]: Mod Unknown Sweet Potato Mod is missing a pack.mcmeta file, substituting a dummy one
+[15:54:33] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:54:33] [Client thread/DEBUG] [FML/]: Bar Finished: Loading took 9.666s
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]: The following texture errors were found.
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]:   DOMAIN unknownsweetpotato
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]: --------------------------------------------------
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]:   domain unknownsweetpotato is missing 1 texture
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]:     domain unknownsweetpotato has 1 location:
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]:       mod unknownsweetpotatomod resources at /Users/fond/minecraftDev/unknownSweetPotato/forge-1.7.10-10.13.4.1558-1.7.10-src/bin
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]:     The missing resources for domain unknownsweetpotato are:
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/magic_sugar.png
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]:     No other errors exist for domain unknownsweetpotato
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[15:54:33] [Client thread/ERROR] [TEXTURE ERRORS/]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[15:54:44] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[15:54:44] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[15:54:44] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.001s
+[15:54:44] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[15:54:44] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[15:54:44] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[15:54:44] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[15:54:44] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[15:54:44] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.002s
+[15:54:44] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLServerAboutToStartEvent to mod unknownsweetpotatomod
+[15:54:44] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLServerAboutToStartEvent to mod unknownsweetpotatomod
+[15:54:44] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Unknown Sweet Potato Mod took 0.000s
+[15:54:44] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.003s
+[15:54:44] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[15:54:44] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[15:54:44] [Server thread/DEBUG] [FML/]: Fixed item id mismatch unknownsweetpotatomod:steamed_anno_sweet_potato: 4100 (init) -> 4106 (map).
+[15:54:44] [Server thread/DEBUG] [FML/]: Fixed item id mismatch unknownsweetpotatomod:anno_shovel: 4104 (init) -> 4103 (map).
+[15:54:44] [Server thread/DEBUG] [FML/]: Fixed item id mismatch unknownsweetpotatomod:anno_sword: 4106 (init) -> 4105 (map).
+[15:54:44] [Server thread/DEBUG] [FML/]: Fixed item id mismatch unknownsweetpotatomod:anno_pickaxe: 4102 (init) -> 4101 (map).
+[15:54:44] [Server thread/DEBUG] [FML/]: Fixed item id mismatch unknownsweetpotatomod:anno_axe: 4103 (init) -> 4102 (map).
+[15:54:44] [Server thread/DEBUG] [FML/]: Fixed item id mismatch unknownsweetpotatomod:unknown_sweet_potato: 4101 (init) -> 4100 (map).
+[15:54:44] [Server thread/DEBUG] [FML/]: Fixed item id mismatch unknownsweetpotatomod:anno_hoe: 4105 (init) -> 4104 (map).
+[15:54:44] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[15:54:44] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[15:54:44] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[15:54:44] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.002s
+[15:54:44] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[15:54:44] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[15:54:44] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.002s
+[15:54:44] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[15:54:44] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[15:54:44] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.002s
+[15:54:44] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLModIdMappingEvent to mod unknownsweetpotatomod
+[15:54:44] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLModIdMappingEvent to mod unknownsweetpotatomod
+[15:54:44] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Unknown Sweet Potato Mod took 0.000s
+[15:54:44] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.006s
+[15:54:44] [Server thread/INFO] [FML/]: Applying holder lookups
+[15:54:44] [Server thread/INFO] [FML/]: Holder lookups applied
+[15:54:44] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[15:54:44] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[15:54:44] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[15:54:44] [Server thread/INFO] [FML/]: Loading dimension 0 (Mt.FUJI) (net.minecraft.server.integrated.IntegratedServer@58ff3fd0)
+[15:54:44] [Server thread/INFO] [FML/]: Loading dimension 1 (Mt.FUJI) (net.minecraft.server.integrated.IntegratedServer@58ff3fd0)
+[15:54:44] [Server thread/INFO] [FML/]: Loading dimension -1 (Mt.FUJI) (net.minecraft.server.integrated.IntegratedServer@58ff3fd0)
+[15:54:46] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[15:54:46] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[15:54:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[15:54:46] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[15:54:46] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[15:54:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[15:54:46] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[15:54:46] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[15:54:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.002s
+[15:54:46] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLServerStartingEvent to mod unknownsweetpotatomod
+[15:54:46] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLServerStartingEvent to mod unknownsweetpotatomod
+[15:54:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Unknown Sweet Potato Mod took 0.000s
+[15:54:46] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.003s
+[15:54:46] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[15:54:46] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[15:54:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[15:54:46] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[15:54:46] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[15:54:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[15:54:46] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[15:54:46] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[15:54:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[15:54:46] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLServerStartedEvent to mod unknownsweetpotatomod
+[15:54:46] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLServerStartedEvent to mod unknownsweetpotatomod
+[15:54:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Unknown Sweet Potato Mod took 0.000s
+[15:54:46] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.001s
+[15:54:46] [Netty Client IO #0/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
+[15:54:46] [Netty Client IO #0/TRACE] [FML/]: $ServerHello->FMLHandshakeClientState$2:HELLO
+[15:54:46] [Netty Client IO #0/INFO] [FML/]: Server protocol version 2
+[15:54:46] [Netty Client IO #0/DEBUG] [FML/]: Received override dimension 0
+[15:54:46] [Netty IO #1/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[15:54:46] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[15:54:46] [Netty IO #1/TRACE] [FML/]: $ModList:4 mods->FMLHandshakeServerState$2:HELLO
+[15:54:46] [Netty IO #1/INFO] [FML/]: Client attempting to join with 4 mods : FML@7.10.99.99,Forge@10.13.4.1558,mcp@9.05,unknownsweetpotatomod@1.0.0
+[15:54:46] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[15:54:46] [Netty Client IO #0/TRACE] [FML/]: $ModList:4 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[15:54:46] [Netty Client IO #0/INFO] [FML/]: Attempting connection with missing mods [] at SERVER
+[15:54:46] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[15:54:46] [Netty Client IO #0/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[15:54:46] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
+[15:54:46] [Netty Client IO #0/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[15:54:46] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[15:54:47] [Client thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[15:54:47] [Client thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[15:54:47] [Client thread/INFO] [FML/]: [Client thread] Client side modded connection established
+[15:54:47] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[15:54:47] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[15:54:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Mt.FUJI
+[15:54:54] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Mt.FUJI
+[15:54:54] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Mt.FUJI
+[15:55:13] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Mt.FUJI
+[15:55:14] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[15:55:14] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[15:55:14] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[15:55:14] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[15:55:14] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[15:55:14] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[15:55:14] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLServerStoppingEvent to mod unknownsweetpotatomod
+[15:55:14] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLServerStoppingEvent to mod unknownsweetpotatomod
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Unknown Sweet Potato Mod took 0.000s
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0.001s
+[15:55:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Mt.FUJI
+[15:55:14] [Server thread/INFO] [FML/]: Unloading dimension 0
+[15:55:14] [Server thread/INFO] [FML/]: Unloading dimension -1
+[15:55:14] [Server thread/INFO] [FML/]: Unloading dimension 1
+[15:55:14] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[15:55:14] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[15:55:14] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[15:55:14] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[15:55:14] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[15:55:14] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[15:55:14] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.000s
+[15:55:14] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLModIdMappingEvent to mod unknownsweetpotatomod
+[15:55:14] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLModIdMappingEvent to mod unknownsweetpotatomod
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Unknown Sweet Potato Mod took 0.000s
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.001s
+[15:55:14] [Server thread/INFO] [FML/]: Applying holder lookups
+[15:55:14] [Server thread/INFO] [FML/]: Holder lookups applied
+[15:55:14] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[15:55:14] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[15:55:14] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[15:55:14] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[15:55:14] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[15:55:14] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[15:55:14] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLServerStoppedEvent to mod unknownsweetpotatomod
+[15:55:14] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLServerStoppedEvent to mod unknownsweetpotatomod
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Unknown Sweet Potato Mod took 0.000s
+[15:55:14] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.001s

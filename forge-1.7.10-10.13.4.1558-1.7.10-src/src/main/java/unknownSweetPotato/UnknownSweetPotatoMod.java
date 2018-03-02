@@ -125,19 +125,19 @@ public class UnknownSweetPotatoMod {
 		achievementSteamedAnnoSweetPotato = new Achievement("achievement.steamedAnnoSweetPotato",
 				"steamedAnnoSweetPotato", 2, -3, new ItemStack(this.steamed_anno_sweet_potato),
 				achievementAnnoSweetPotato).registerStat();
-		achievementUnknownSweetPotato = new Achievement("achievement.unknownSweetPotato", "unknownSweetPotato", -2, 3,
+		achievementUnknownSweetPotato = new Achievement("achievement.unknownSweetPotato", "unknownSweetPotato", -2, 1,
 				new ItemStack(this.unknown_sweet_potato), achievementAnnoSweetPotato).registerStat();
-		achievementUSPAte = new Achievement("achievement.USPAte", "USPAte", -1, 4, this.unknown_sweet_potato,
+		achievementUSPAte = new Achievement("achievement.USPAte", "USPAte", -1, 2, this.unknown_sweet_potato,
 				achievementUnknownSweetPotato).registerStat();
-		achievementUSPLucky = new Achievement("achievement.USPLucky", "USPLucky", 1, 4, Items.golden_apple,
+		achievementUSPLucky = new Achievement("achievement.USPLucky", "USPLucky", 1, 2, Items.golden_apple,
 				achievementUSPAte).registerStat();
-		achievementUSPObsidian = new Achievement("achievement.USPObsidian", "USPObsidian", 1, 5, Blocks.obsidian,
+		achievementUSPObsidian = new Achievement("achievement.USPObsidian", "USPObsidian", 1, 3, Blocks.obsidian,
 				achievementUSPAte).registerStat();
-		achievementUSPEncounter = new Achievement("achievement.USPEncounter", "USPEncounter", 1, 6, Items.emerald,
+		achievementUSPEncounter = new Achievement("achievement.USPEncounter", "USPEncounter", 1, 4, Items.emerald,
 				achievementUSPAte).registerStat();
 		achievementUSPEncounterComplete = new Achievement("achievement.USPEncounterComplete", "USPEncounterComplete", 3,
-				6, Blocks.emerald_block, achievementUSPEncounter).registerStat();
-		achievementUSPVeryLucky = new Achievement("achievement.USPVeryLucky", "USPVeryLucky", 2, 7,
+				4, Blocks.emerald_block, achievementUSPEncounter).registerStat();
+		achievementUSPVeryLucky = new Achievement("achievement.USPVeryLucky", "USPVeryLucky", 2, 5,
 				new ItemStack(Items.golden_apple, 1), achievementUSPAte).setSpecial().registerStat();
 
 		AchievementPage.registerAchievementPage(new AchievementPage("Unknown Sweet Potato",
