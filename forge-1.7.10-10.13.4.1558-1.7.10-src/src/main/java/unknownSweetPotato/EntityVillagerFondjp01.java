@@ -16,7 +16,6 @@ public class EntityVillagerFondjp01 implements IVillageTradeHandler {
 
 	@Override
 	public void manipulateTradesForVillager(EntityVillager villager, MerchantRecipeList recipeList, Random random) {
-		ItemStack annoSword = new ItemStack(UnknownSweetPotatoMod.anno_sword);
 		ItemStack powerBook = new ItemStack(Items.enchanted_book);
 		ItemStack sharpnessBook = new ItemStack(Items.enchanted_book);
 		ItemStack efficiencyBook = new ItemStack(Items.enchanted_book);

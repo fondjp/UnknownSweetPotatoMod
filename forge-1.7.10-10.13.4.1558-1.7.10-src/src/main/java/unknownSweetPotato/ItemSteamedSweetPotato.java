@@ -2,6 +2,7 @@ package unknownSweetPotato;
 
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagList;
 import net.minecraft.potion.PotionEffect;
 
 public class ItemSteamedSweetPotato extends ItemFood {
@@ -19,6 +20,11 @@ public class ItemSteamedSweetPotato extends ItemFood {
 
 	public int getMaxItemUseDuration(ItemStack stack) {
 		return 48;
+	}
+
+	public boolean hasEffect(ItemStack par1ItemStack) {
+	     par1ItemStack.setTagInfo("ench", new NBTTagList());
+	     return true;
 	}
 
 }

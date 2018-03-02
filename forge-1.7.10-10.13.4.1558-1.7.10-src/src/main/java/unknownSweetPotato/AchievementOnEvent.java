@@ -49,19 +49,4 @@ public class AchievementOnEvent {
 		}
 	}
 
-	@SubscribeEvent
-	public void whenCraftedSweetPotatoBlock(PlayerEvent.ItemCraftedEvent e) {
-		if (e.crafting.getItem().equals(UnknownSweetPotatoMod.sweet_potato_block)) {
-			e.player.addStat(UnknownSweetPotatoMod.achievementSweetPotatoBlock, 1);
-		}
-	}
-
-	// @SubscribeEvent
-	// public void whenCraftedAnnoBlock(PlayerEvent.ItemCraftedEvent e) {
-	// if (e.crafting.getItem().equals(new
-	// ItemBlock(UnknownSweetPotatoMod.anno_block))) {
-	// e.player.addStat(UnknownSweetPotatoMod.achievementAnnoBlock, 1);
-	// }
-	// }
-
 }

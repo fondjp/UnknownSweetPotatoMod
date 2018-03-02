@@ -1,10 +1,9 @@
 package unknownSweetPotato;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagList;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
@@ -22,7 +21,6 @@ public class ItemSteamedAnnoSweetPotato extends ItemFood {
 	}
 
 	@Override
-	@SideOnly(Side.CLIENT)
 	protected void onFoodEaten(ItemStack stack, World world, EntityPlayer player) {
 		super.onFoodEaten(stack, world, player);
 		player.addPotionEffect(new PotionEffect(10, 20 * 10, 2)); // レベル３再生を200tick(≒10sec）
@@ -30,6 +28,11 @@ public class ItemSteamedAnnoSweetPotato extends ItemFood {
 
 	public int getMaxItemUseDuration(ItemStack stack) {
 		return 48;
+	}
+
+	public boolean hasEffect(ItemStack par1ItemStack) {
+	     par1ItemStack.setTagInfo("ench", new NBTTagList());
+	     return true;
 	}
 
 }

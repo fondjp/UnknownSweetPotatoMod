@@ -64,8 +64,6 @@ public class UnknownSweetPotatoMod {
 	public static Achievement achievementAnnoSweetPotato;
 	public static Achievement achievementSteamedAnnoSweetPotato;
 	public static Achievement achievementUnknownSweetPotato;
-	public static Achievement achievementSweetPotatoBlock;
-	public static Achievement achievementAnnoBlock;
 	public static Achievement achievementUSPAte;
 	public static Achievement achievementUSPLucky;
 	public static Achievement achievementUSPObsidian;
@@ -129,10 +127,6 @@ public class UnknownSweetPotatoMod {
 				achievementAnnoSweetPotato).registerStat();
 		achievementUnknownSweetPotato = new Achievement("achievement.unknownSweetPotato", "unknownSweetPotato", -2, 3,
 				new ItemStack(this.unknown_sweet_potato), achievementAnnoSweetPotato).registerStat();
-		achievementSweetPotatoBlock = new Achievement("achievement.sweetPotatoBlock", "sweetPotatoBlock", 4, -2,
-				this.sweet_potato_block, achievementSweetPotato).registerStat();
-		achievementAnnoBlock = new Achievement("achievement.annoBlock", "annoBlock", 4, -1, this.anno_block,
-				achievementAnnoSweetPotato).registerStat();
 		achievementUSPAte = new Achievement("achievement.USPAte", "USPAte", -1, 4, this.unknown_sweet_potato,
 				achievementUnknownSweetPotato).registerStat();
 		achievementUSPLucky = new Achievement("achievement.USPLucky", "USPLucky", 1, 4, Items.golden_apple,
@@ -149,7 +143,7 @@ public class UnknownSweetPotatoMod {
 		AchievementPage.registerAchievementPage(new AchievementPage("Unknown Sweet Potato",
 				new Achievement[] { achievementPotato, achievementSweetPotato, achievementSteamedSweetPotato,
 						achievementAnnoSweetPotato, achievementSteamedAnnoSweetPotato, achievementUnknownSweetPotato,
-						achievementSweetPotatoBlock, achievementAnnoBlock, achievementUSPAte, achievementUSPLucky,
+						achievementUSPAte, achievementUSPLucky,
 						achievementUSPObsidian, achievementUSPEncounter, achievementUSPEncounterComplete ,achievementUSPVeryLucky }));
 
 		FMLCommonHandler.instance().bus().register(new AchievementOnEvent());

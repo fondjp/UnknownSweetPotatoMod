@@ -2,8 +2,6 @@ package unknownSweetPotato;
 
 import java.util.Random;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.item.EntityTNTPrimed;
 import net.minecraft.entity.passive.EntityVillager;
@@ -31,7 +29,6 @@ public class ItemUnknownSweetPotato extends ItemFood {
 		this.effects = effects;
 	}
 
-	@SideOnly(Side.CLIENT)
 	public ItemStack onEaten(ItemStack stack, World world, EntityPlayer player) {
 		super.onEaten(stack, world, player);
 
