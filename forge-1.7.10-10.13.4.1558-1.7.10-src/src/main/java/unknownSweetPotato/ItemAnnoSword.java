@@ -6,7 +6,7 @@ public class ItemAnnoSword extends ItemSword {
 
 	public ItemAnnoSword(String unlocalizedName, ToolMaterial material) {
 		super(material);
-		this.setCreativeTab(UnknownSweetPotatoMod.tabSweetPotatoMod);
+		this.setCreativeTab(UnknownSweetPotatoMod.tabUnknownSweetPotatoMod);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setTextureName("unknownsweetpotato:" + unlocalizedName);
 	}

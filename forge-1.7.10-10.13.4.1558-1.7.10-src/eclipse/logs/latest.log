@@ -29,3 +29,10 @@
 [16:24:59] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Overworld
 [16:24:59] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Nether
 [16:24:59] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/The End
+[16:30:30] [Server thread/INFO]: Stopping server
+[16:30:30] [Server thread/INFO]: Saving players
+[16:30:30] [Server thread/INFO]: Saving worlds
+[16:30:30] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Overworld
+[16:30:30] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Nether
+[16:30:30] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/The End
+[16:30:31] [Client thread/INFO]: Stopping!

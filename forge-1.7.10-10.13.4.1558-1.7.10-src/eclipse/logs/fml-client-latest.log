@@ -589,3 +589,53 @@ Details:
 [16:24:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Mt.FUJI
 [16:24:49] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Mt.FUJI
 [16:24:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Mt.FUJI
+[16:30:30] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[16:30:30] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.002s
+[16:30:30] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[16:30:30] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0.001s
+[16:30:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[16:30:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[16:30:30] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLServerStoppingEvent to mod unknownsweetpotatomod
+[16:30:30] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLServerStoppingEvent to mod unknownsweetpotatomod
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Unknown Sweet Potato Mod took 0.001s
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0.004s
+[16:30:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Mt.FUJI
+[16:30:30] [Server thread/INFO] [FML/]: Unloading dimension 0
+[16:30:30] [Server thread/INFO] [FML/]: Unloading dimension -1
+[16:30:30] [Server thread/INFO] [FML/]: Unloading dimension 1
+[16:30:30] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[16:30:30] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[16:30:30] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[16:30:30] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[16:30:30] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[16:30:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[16:30:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.001s
+[16:30:30] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLModIdMappingEvent to mod unknownsweetpotatomod
+[16:30:30] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLModIdMappingEvent to mod unknownsweetpotatomod
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Unknown Sweet Potato Mod took 0.000s
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.002s
+[16:30:30] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:30:30] [Server thread/INFO] [FML/]: Holder lookups applied
+[16:30:30] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[16:30:30] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[16:30:30] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[16:30:30] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[16:30:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[16:30:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[16:30:30] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sending event FMLServerStoppedEvent to mod unknownsweetpotatomod
+[16:30:30] [Server thread/TRACE] [unknownsweetpotatomod/unknownsweetpotatomod]: Sent event FMLServerStoppedEvent to mod unknownsweetpotatomod
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Unknown Sweet Potato Mod took 0.000s
+[16:30:30] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.001s
+[16:30:31] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:30:31] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[16:30:32] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[16:30:32] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 

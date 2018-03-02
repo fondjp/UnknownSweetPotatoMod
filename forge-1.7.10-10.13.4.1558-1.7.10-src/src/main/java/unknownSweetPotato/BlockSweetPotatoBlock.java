@@ -7,7 +7,7 @@ public class BlockSweetPotatoBlock extends Block {
 
 	protected BlockSweetPotatoBlock(String unlocalizedName) {
 		super(Material.rock);
-		this.setCreativeTab(UnknownSweetPotatoMod.tabSweetPotatoMod);
+		this.setCreativeTab(UnknownSweetPotatoMod.tabUnknownSweetPotatoMod);
 		this.setBlockName(unlocalizedName);
 		this.setBlockTextureName("unknownsweetpotato:" + unlocalizedName);
 		setLightLevel(1.0F);

@@ -3,21 +3,21 @@ package unknownSweetPotato;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class CreativeTabSweetPotato extends CreativeTabs {
+public class CreativeTabUnknownSweetPotato extends CreativeTabs {
 
 	// クリエイティブタブのアイコン画像や名称の登録クラス
-	public CreativeTabSweetPotato(String type) {
+	public CreativeTabUnknownSweetPotato(String type) {
 		super(type);
 	}
 
 	@Override
 	public String getTranslatedTabLabel() {
-		return "Sweet Potato Mod";
+		return "Unknown Sweet Potato Mod";
 	}
 
 	@Override
 	public Item getTabIconItem() {
-		return Item.getItemFromBlock(UnknownSweetPotatoMod.sweet_potato_block);
+		return Item.getItemFromBlock(UnknownSweetPotatoMod.anno_block);
 	}
 
 }
