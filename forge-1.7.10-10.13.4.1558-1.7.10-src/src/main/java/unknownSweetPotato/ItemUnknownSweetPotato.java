@@ -39,7 +39,7 @@ public class ItemUnknownSweetPotato extends ItemFood {
 			int genNum = rand.nextInt(1000) + 1; // 0.1％単位で事象を管理する
 			if (genNum <= 240) {
 				int getResouceNum = 0;
-				switch (rand.nextInt(4)) {
+				switch (rand.nextInt(5)) {
 				case 0:
 					Minecraft.getMinecraft().thePlayer.sendChatMessage("Oh, diamond came out of my mouth!!!");
 					player.inventory.addItemStackToInventory(new ItemStack(Items.diamond, rand.nextInt(10) + 1));
@@ -71,11 +71,12 @@ public class ItemUnknownSweetPotato extends ItemFood {
 			} else if (genNum <= 420) {
 				Minecraft.getMinecraft().thePlayer.sendChatMessage("This Sweet Potato contains a Potion!!!");
 				int potionId[] = { 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
-				int duration; // second
-				int level = rand.nextInt(1);
-				if (level == 0) {
+				int duration, level; // (value) * 20 = duration in seconds
+				if (genNum <= 350) {
+					level = 0;
 					duration = 50;
 				} else {
+					level = 1;
 					duration = 20;
 				}
 				player.addPotionEffect(new PotionEffect(potionId[rand.nextInt(potionId.length)], 20 * duration, level));

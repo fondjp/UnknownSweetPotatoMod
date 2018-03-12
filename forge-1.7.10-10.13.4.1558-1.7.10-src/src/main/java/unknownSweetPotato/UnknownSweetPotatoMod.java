@@ -19,7 +19,7 @@ import net.minecraft.stats.Achievement;
 import net.minecraftforge.common.AchievementPage;
 import net.minecraftforge.common.util.EnumHelper;
 
-@Mod(modid = "unknownsweetpotatomod", name = "Unknown Sweet Potato Mod", version = "0.1.0")
+@Mod(modid = "unknownsweetpotatomod", name = "Unknown Sweet Potato Mod", version = "0.1.1")
 public class UnknownSweetPotatoMod {
 
 	public static final CreativeTabs tabUnknownSweetPotatoMod = new CreativeTabUnknownSweetPotato("Unknown Sweet Potato Mod");

@@ -1,38 +1,45 @@
-[16:21:51] [main/INFO]: Setting user: Player288
-[16:21:53] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:22:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Unknown Sweet Potato Mod
-[16:22:06] [Sound Library Loader/INFO]: Sound engine started
-[16:22:07] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[16:22:07] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[16:22:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Unknown Sweet Potato Mod
-[16:22:08] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:22:08] [Client thread/INFO]: Created: 512x512 textures/items-atlas
-[16:22:09] [Sound Library Loader/INFO]: Sound engine started
-[16:22:30] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:22:30] [Server thread/INFO]: Generating keypair
-[16:22:30] [Server thread/INFO]: Preparing start region for level 0
-[16:22:31] [Server thread/INFO]: Preparing spawn area: 71%
-[16:22:31] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:22:32] [Server thread/INFO]: Player288[local:E:3f546339] logged in with entity id 177 at (-58.96856925026349, 71.0, -182.9222073874309)
-[16:22:32] [Server thread/INFO]: Player288 がゲームに参加しました
-[16:22:33] [Server thread/INFO]: Saving and pausing game...
-[16:22:33] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Overworld
-[16:22:33] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Nether
-[16:22:33] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/The End
-[16:23:44] [Server thread/INFO]: [Player288: 現在時刻を16000に設定]
-[16:23:44] [Client thread/INFO]: [CHAT] 現在時刻を16000に設定
-[16:24:32] [Server thread/INFO]: [Player288: 現在時刻を0に設定]
-[16:24:32] [Client thread/INFO]: [CHAT] 現在時刻を0に設定
-[16:24:55] [Server thread/INFO]: Player288 は [所持品の確認] の実績を取得した
-[16:24:55] [Client thread/INFO]: [CHAT] Player288 は [所持品の確認] の実績を取得した
-[16:24:59] [Server thread/INFO]: Saving and pausing game...
-[16:24:59] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Overworld
-[16:24:59] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Nether
-[16:24:59] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/The End
-[16:30:30] [Server thread/INFO]: Stopping server
-[16:30:30] [Server thread/INFO]: Saving players
-[16:30:30] [Server thread/INFO]: Saving worlds
-[16:30:30] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Overworld
-[16:30:30] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/Nether
-[16:30:30] [Server thread/INFO]: Saving chunks for level 'Mt.FUJI'/The End
-[16:30:31] [Client thread/INFO]: Stopping!
+[15:57:20] [main/INFO]: Setting user: Player466
+[15:57:21] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:57:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Unknown Sweet Potato Mod
+[15:57:31] [Sound Library Loader/INFO]: Sound engine started
+[15:57:31] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:57:31] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:57:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Unknown Sweet Potato Mod
+[15:57:32] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:57:32] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[15:57:33] [Sound Library Loader/INFO]: Sound engine started
+[15:57:35] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[15:57:35] [Server thread/INFO]: Generating keypair
+[15:57:35] [Server thread/INFO]: Preparing start region for level 0
+[15:57:36] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:57:37] [Server thread/INFO]: Player466[local:E:d01aa2e2] logged in with entity id 100 at (-280.7426516800208, 14.0, 85.47587255898509)
+[15:57:37] [Server thread/INFO]: Player466 がゲームに参加しました
+[15:57:42] [Server thread/INFO]: [Player466: 現在時刻を1000に設定]
+[15:57:42] [Client thread/INFO]: [CHAT] 現在時刻を1000に設定
+[15:57:46] [Server thread/INFO]: Saving and pausing game...
+[15:57:46] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/Overworld
+[15:57:46] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/Nether
+[15:57:46] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/The End
+[15:57:47] [Server thread/INFO]: Saving and pausing game...
+[15:57:47] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/Overworld
+[15:57:47] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/Nether
+[15:57:47] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/The End
+[15:57:54] [Server thread/INFO]: Player466 は [所持品の確認] の実績を取得した
+[15:57:54] [Client thread/INFO]: [CHAT] Player466 は [所持品の確認] の実績を取得した
+[15:58:57] [Client thread/INFO]: [CHAT] スクリーンショットをファイル名 2018-03-04_15.58.57.png として保存しました
+[15:59:04] [Server thread/INFO]: Saving and pausing game...
+[15:59:04] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/Overworld
+[15:59:04] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/Nether
+[15:59:04] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/The End
+[16:00:00] [Client thread/INFO]: [CHAT] スクリーンショットをファイル名 2018-03-04_16.00.00.png として保存しました
+[16:00:27] [Server thread/INFO]: Saving and pausing game...
+[16:00:27] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/Overworld
+[16:00:27] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/Nether
+[16:00:27] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/The End
+[20:47:25] [Client thread/INFO]: Stopping!
+[20:47:25] [Server thread/INFO]: Stopping server
+[20:47:25] [Server thread/INFO]: Saving players
+[20:47:25] [Server thread/INFO]: Saving worlds
+[20:47:25] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/Overworld
+[20:47:25] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/Nether
+[20:47:25] [Server thread/INFO]: Saving chunks for level '紹介専用ワールド'/The End
